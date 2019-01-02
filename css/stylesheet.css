@@ -169,7 +169,7 @@ footer {
     h1 {
         padding: 50px 0px 25px 0px; 
         color: white;
-        font-size: 45px;
+        font-size: 50px;
     }
 
     h2 {
@@ -264,7 +264,9 @@ footer {
 
     a:hover {
         text-decoration: underline;
-    }
+        transform: scale(1.2);
+        border-bottom: #ededed
+        }
 
     .back-to-top-link {
         display: none;
@@ -272,10 +274,10 @@ footer {
 
     h1 {
         color: white;
-        font-size: 60px;
+        font-size: 75px;
         text-align: left;
         padding: 0;
-        margin: 0 0 0 45px;
+        margin: 0 0 0 20px;
     }
 
     ul {
@@ -301,30 +303,27 @@ footer {
         flex-wrap: wrap;
         padding: 20px 0 20px 0;
     }
-
     .intro .profile-picture {
         width: calc(32% - 5px);
         order: 2;
     }
-
     .intro .intro-text {
         color: white;
         width: calc(60% - 5px);
         order: 1;
-        padding-left: 1%;
+        padding-left: 0;
         text-align: left;
     }
-
     .intro .intro-text p {
         margin: 0;
-        padding-left: 25px;
+        padding-left: 0;
     }
     .portfolio .project-wrapper {
         display: flex;
         flex-wrap: wrap;
+        margin: 0 30px; 
         
     }
-
     .portfolio .project {
         width: calc(33.33333% - 10px);
         margin: 0 5px;
