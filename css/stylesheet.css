@@ -48,6 +48,7 @@ h1 {
 }
 
 h2 {
+    color: #2D4C49;
     text-align: center;
     text-transform: uppercase;
     font-size: 16px;
@@ -92,6 +93,37 @@ h2 {
 h3 {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style-type: disc;
+    display: inline-block;
+}
+
+.my-skills {
+    width: 90%;
+    margin: auto;
+}
+
+.skills-wrapper {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.skills {
+    width: 50%;
+    margin: auto;
+}
+
+.list-1 {
+    width: 50%;
+    margin: auto;
+}
+
+.list-2 {
+    width: 50%;
+    margin: auto;
+    margin-left: 0;
 }
 
 footer {
@@ -145,7 +177,7 @@ footer {
     .footer-nav {
         display: block;
         width: 33%;
-        padding: 0 0 0 auto;
+        padding: 0;
     }
 
     .footer-nav ul{
@@ -212,6 +244,30 @@ footer {
         margin: 0 5px;
     }
 
+    .my-skills {
+        width: 90%;
+        margin: auto;
+        
+    }
+    
+    .skills {
+        width: 25%;
+        margin: auto;
+    }
+    
+    .skills-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .list-1 {
+        margin-left: 20px;
+        margin-right: auto;
+    }
+    .list-2 {
+        margin-right: 20px;
+        margin-left: auto;
+    }
 }
 
  /* -------------------------------------------------------------- PC SKJERM --------------------------------------------------------------- */
@@ -245,7 +301,7 @@ footer {
     .footer-nav {
         display: block;
         width: 33%;
-        padding: 0 0 0 auto;
+        padding: 0;
         margin: 0;
     }
 
@@ -280,6 +336,10 @@ footer {
         text-align: left;
         padding: 0;
         margin: 0 0 0 20px;
+    }
+
+    h2 {
+        font-size: 25px;
     }
 
     ul {
@@ -329,5 +389,21 @@ footer {
     .portfolio .project {
         width: calc(33.33333% - 10px);
         margin: 0 5px;
+    }
+
+    .my-skills {
+        width: 50%;
+        margin: auto;
+        
+    }
+    
+    .skills {
+        width: 30%;
+       
+    }
+    
+    .skills-wrapper {
+        display: flex;
+        justify-content: space-between;
     }
 }
