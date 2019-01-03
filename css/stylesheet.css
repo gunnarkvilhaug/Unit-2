@@ -3,7 +3,7 @@
 }
 
 html {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
@@ -413,5 +413,9 @@ footer {
     .skills-wrapper {
         display: flex;
         justify-content: space-between;
+    }
+
+    p {
+        font-size: 18px;
     }
 }
